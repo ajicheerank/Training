@@ -1,4 +1,7 @@
-import pprint
-tup = ('spam', ('eggs', ('lumberjack', ('knights', ('ni', ('dead', ('parrot', ('fresh fruit',))))))))
-stuff = ['a' * 10, tup, ['a' * 30, 'b' * 30], ['c' * 20, 'd' * 20]]
-pprint.pprint(stuff)
+init1 = [(num,0) for num in range(0,3)]
+init2 = [(num,1) for num in range(0,3)]
+init3 = [(num,2) for num in range(0,3)]
+stuff = [init1,init2,init3]    
+
+for lst in stuff:
+    print(lst)
